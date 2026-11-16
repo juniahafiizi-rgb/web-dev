@@ -1,0 +1,252 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px; 
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+h3 {
+  color: #1a3c6e;
+  border-bottom: 2px solid #1a3c6e;
+  padding-bottom: 5px;
+}
+
+
+header {
+  position: sticky; 
+  top: 0;
+  background-color: #1a3c6e;
+  color: white;
+  padding: 10px 20px;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav h2 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #f4b400; 
+  color: #1a3c6e;
+}
+
+
+.about-img {
+  width: 300px;
+  max-width: 100%;
+  display: block;
+  margin: 15px auto; 
+  border-radius: 8px;
+}
+
+
+.course-list li {
+  padding: 6px;
+  color: #1a3c6e;
+  font-weight: bold;
+}
+
+.steps li {
+  margin-bottom: 8px;
+  padding: 4px;
+}
+
+.steps li::marker {
+  color: #f4b400;
+  font-weight: bold;
+}
+
+
+.cards {
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  flex: 1 1 180px;
+  min-height: 220px;
+  position: relative; 
+  border: 1px solid #1a3c6e;
+  border-radius: 8px;
+  padding: 20px 15px;
+  color: white; 
+  background-size: cover; 
+  background-position: center;
+}
+
+.card h4 {
+  margin-top: 25px;
+  color: white;
+}
+
+
+.web {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("images/wb.jpg");
+}
+
+.networking {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/nw.jpg");
+}
+
+.database {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/dbb.jpg");
+}
+
+.cyber {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("images/images.jpeg");
+}
+
+
+.register-label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #e96f1d;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 0 8px 0 8px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #1a3c6e;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e8eef7; 
+}
+
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: inline-block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.options label {
+  font-weight: normal;
+  margin-right: 15px;
+}
+
+.options label:first-child {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #2e7d32;
+}
+
+button[type="reset"] {
+  background-color: #d32f2f;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+
+footer {
+  background-color: #1a3c6e;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+
+.back-to-top {
+  position: fixed; 
+  bottom: 20px;
+  right: 20px;
+  background-color: #f4b400;
+  color: #1a3c6e;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
