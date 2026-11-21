@@ -125,22 +125,22 @@ nav a:hover {
 
 .web {
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    url("images/wb.jpg");
+    url("wb.jpg");
 }
 
 .networking {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/nw.jpg");
+    url("nw.jpg");
 }
 
 .database {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/dbb.jpg");
+    url("dbb.jpg");
 }
 
 .cyber {
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    url("images/images.jpeg");
+    url("images.jpeg");
 }
 
 
