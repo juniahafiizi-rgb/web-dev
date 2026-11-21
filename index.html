@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISBAT University ICT Training Centre</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <header id="home">
+      <nav>
+        <h2>ISBAT UNIVERSITY</h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#timetable">Timetable</a></li>
+          <li><a href="#registration">Registration</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h3>About Us</h3>
+        <p>
+          The ISBAT University Student ICT Training Centre helps students learn
+          practical computer skills that are needed in the job market today.
+        </p>
+        <p>
+          Our trainers guide students through hands-on lessons in web
+          development, networking, databases and cybersecurity.
+        </p>
+
+        <img
+          class="about-img"
+          src="images/wb.jpg"
+          alt="Students learning ICT"
+        />
+      </section>
+
+      <section id="courses">
+        <h3>Courses</h3>
+        <ul class="course-list">
+          <li>Web Development</li>
+          <li>Computer Networking</li>
+          <li>Database Management</li>
+          <li>Cybersecurity</li>
+        </ul>
+
+        <h3>How to Register</h3>
+        <article>
+          <ol class="steps">
+            <li>
+              The student visits the university website or IT training
+              registration portal and selects the IT Training Program.
+            </li>
+            <li>
+              The student creates an account by providing: Full name, Student
+              registration number (if applicable), Email address, Phone number
+              and Password.
+            </li>
+            <li>
+              The student logs in using the registered email address or student
+              number and password.
+            </li>
+            <li>
+              The system displays the four available courses. The student
+              selects one or more courses depending on their interests and the
+              university's registration requirements.
+            </li>
+          </ol>
+        </article>
+
+        <div class="cards">
+          <div class="card web">
+            <span class="register-label">Register Now</span>
+            <h4>Web Development</h4>
+            <p>Learn to build websites using HTML, CSS and JavaScript.</p>
+          </div>
+          <div class="card networking">
+            <h4>Computer Networking</h4>
+            <p>Learn how computers connect and share data in a network.</p>
+          </div>
+          <div class="card database">
+            <h4>Database Management</h4>
+            <p>Learn to store, organise and manage data using databases.</p>
+          </div>
+          <div class="card cyber">
+            <h4>Cybersecurity</h4>
+            <p>Learn how to protect systems and data from attacks.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="timetable">
+        <h3>Weekly Training Timetable</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Course</th>
+              <th>Time</th>
+              <th>Instructor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>Web Development</td>
+              <td>9:00-1:00</td>
+              <td>Mr Mosh</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>Computer Networking</td>
+              <td>11:00-4:00</td>
+              <td>Mr Jensen</td>
+            </tr>
+            <tr>
+              <td>Thursday</td>
+              <td>Database Management</td>
+              <td>9:00-1:00</td>
+              <td>Mr Trump</td>
+            </tr>
+            <tr>
+              <td>Saturday</td>
+              <td>Cybersecurity</td>
+              <td>11:00-4:00</td>
+              <td>Mr Elon</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="registration">
+        <h3>Student Registration Form</h3>
+        <form action="">
+          <div>
+            <label for="name">Full Name</label>
+            <input id="name" name="name" type="text" />
+          </div>
+
+          <div>
+            <label for="number">Student Number</label>
+            <input id="number" name="number" type="number" />
+          </div>
+
+          <div>
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" />
+          </div>
+
+          <div class="options">
+            <label>Gender:</label>
+            <input id="male" type="checkbox" name="gender" value="male" />
+            <label for="male">Male</label>
+            <input id="female" type="checkbox" name="gender" value="female" />
+            <label for="female">Female</label>
+          </div>
+
+          <div>
+            <label for="course">Preferred Course</label>
+            <select id="course" name="course">
+              <option value="">Select a Course</option>
+              <option value="web">Web Development</option>
+              <option value="networking">Computer Networking</option>
+              <option value="database">Database Management</option>
+              <option value="cyber">Cybersecurity</option>
+            </select>
+          </div>
+
+          <div class="options">
+            <label>Study Mode:</label>
+            <input id="full" type="radio" name="mode" value="full" />
+            <label for="full">Full Time</label>
+            <input id="part" type="radio" name="mode" value="part" />
+            <label for="part">Part Time</label>
+            <input id="online" type="radio" name="mode" value="online" />
+            <label for="online">Online Classes</label>
+          </div>
+
+          <div class="options">
+            <input id="agree" type="checkbox" name="agree" />
+            <label for="agree">I confirm the details above are correct</label>
+          </div>
+
+          <div>
+            <label for="comments">Additional Comments</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+          </div>
+
+          <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 ISBAT UNIVERSITY. All rights reserved.</p>
+    </footer>
+
+    <a class="back-to-top" href="#">Back to Top</a>
+  </body>
+</html>
